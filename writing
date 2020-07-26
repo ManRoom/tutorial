@@ -1,0 +1,14 @@
+// fs.readFile('common.txt', 'UTF-8', function(err, data) {
+//     if(!data) {
+//         console.log('file is empty');
+//     }
+//     console.log(data);
+// });
+
+// fs.unlink('common.txt', function() { /// delete file
+//     console.log("file is deleted!\n");
+// });
+// //console.log(file_reader + "\n");
+
+
+//var write_str = fs.writeFileSync('common.txt', " [" + file_reader + "] // code of additions");

@@ -1,0 +1,15 @@
+
+//  var list_accounts = function(name_text) {
+//     this.name_text = name_text;
+//  };
+//
+//  util_method.inherits(list_accounts, event_method.EventEmitter);
+//
+//  var user_one = new list_accounts('user_one');
+//
+// user_one.on('user_one', function(text) {
+//
+//   console.log(user_one.list_accounts);
+// });
+//
+// user_one.emit('user_one');
