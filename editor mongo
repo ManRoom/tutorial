@@ -1,0 +1,13 @@
+db.source.insertOne({
+    _id : 1,
+    "name" : "Senya",
+    "pass" : ["12345678", "87654321", "18273645"],
+
+    "emails" : 
+                {"email_1" : "q*****@gmail.com", 
+                 "email_2" : "r*****@gmail.com", 
+                 "email_3" : "s*****@gmail.com"}
+
+     })
+
+
