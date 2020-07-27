@@ -1,0 +1,10 @@
+var http = require('http');
+
+var server = http.createServer(function(request, response) {
+
+    response.writeHead(200, {'Content-type' : 'text/plain charset = UTF-8' });
+    response.end("Hi, here we again\n");
+});
+
+server.listen(8080, '127.0.0.1');
+console.log("detecting port: 8080");
